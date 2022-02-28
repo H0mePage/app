@@ -1,7 +1,10 @@
+import 'package:app/homepage.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'loginPage.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -9,8 +12,19 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Text("Welcome Welcome....Dear"),
+    int Data = 1;
+    return MaterialApp(
+      // home: const HomePage(),
+      theme: ThemeData(
+          primarySwatch: Colors.amber,
+          fontFamily: GoogleFonts.playfairDisplay().fontFamily),
+
+      darkTheme: ThemeData(
+          primarySwatch: Colors.red, scaffoldBackgroundColor: Colors.white),
+      routes: {
+        "/": (context) => LoginPage(),
+        "/home": ((context) => const HomePage()),
+      },
     );
   }
 }
