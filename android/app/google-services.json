@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "934930277281",
+    "project_id": "login-43",
+    "storage_bucket": "login-43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934930277281:android:a83b7e01f760156a0a61e0",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934930277281-mevi9tlqcrobcopnln4aqfmgs3h71dje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcEmmi9PUNWcDAjzfvxwKneBG9-H8_4d4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934930277281-mevi9tlqcrobcopnln4aqfmgs3h71dje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934930277281:android:40ab3f868f72eef10a61e0",
+        "android_client_info": {
+          "package_name": "com.health.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934930277281-mevi9tlqcrobcopnln4aqfmgs3h71dje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcEmmi9PUNWcDAjzfvxwKneBG9-H8_4d4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934930277281-mevi9tlqcrobcopnln4aqfmgs3h71dje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
